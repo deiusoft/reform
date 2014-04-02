@@ -3,6 +3,8 @@ reform
 
 Pure CSS form styling
 
+####[Demo](http://deiusoft.github.io/reform/)
+
 ### Usage
 
 #### Checkbox
