@@ -1,0 +1,28 @@
+{
+  "name": "reform",
+  "version": "0.1.0",
+  "authors": [
+    "Andrei Canta <andrei.canta@deiu.ro>"
+  ],
+  "description": "Pure CSS form styling",
+  "main": "reform.css",
+  "keywords": [
+    "form",
+    "checkbox",
+    "radio",
+    "switch",
+    "select",
+    "style"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.1.1"
+  }
+}

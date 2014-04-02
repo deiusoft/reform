@@ -1,0 +1,18 @@
+body {
+  padding: 20px;
+}
+label {
+  font-weight: normal;
+}
+.wrapper {
+  width: 500px;
+  margin: auto;
+}
+section.example {
+  margin: 20px 0;
+}
+section.example .title {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Reform - Pure CSS form styling</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="reform.css">
+    <link rel="stylesheet" href="docs.css">
+  </head>
+  <body>
+
+    <div class="wrapper">
+      <div class="page-header">
+        <h1>Reform <br><small>Pure CSS from styling!</small></h1>
+      </div>
+      <h2>Examples</h2>
+      <form>
+        <section class="example">
+          <div class="title">Checkbox</div>
+          <label class="reform">
+            <input type="checkbox" checked><i></i> Checkbox 1
+          </label>
+          <label class="reform">
+            <input type="checkbox"><i></i> Checkbox 2
+          </label>
+        </section>
+        <section class="example">
+          <div class="title">Radio</div>
+          <label class="reform">
+            <input type="radio" name="r" checked><i></i> Radio option 1
+          </label>
+          <label class="reform">
+            <input type="radio" name="r"><i></i> Radio option 2
+          </label>
+          <label class="reform">
+            <input type="radio" name="r"><i></i> Radio option 3
+          </label>
+        </section>
+        <section class="example">
+          <div class="title">Switch</div>
+          <label class="reform">
+            <input class="switch" type="checkbox" checked><i></i> Basic switch button
+          </label>
+          <label class="reform">
+            <input class="switch" type="checkbox"><i></i> Basic switch button
+          </label>
+        </section>
+        <section class="example">
+          <div class="title">Select</div>
+          <label class="reform">
+            <select>
+              <option value="1">A</option>
+              <option value="2">B</option>
+              <option value="3">C</option>
+              <option value="4">D</option>
+            </select><i></i>
+          </label>
+          <label class="reform">
+            <select>
+              <option value="1">A really long option here</option>
+              <option value="2">B</option>
+              <option value="3">C</option>
+              <option value="4">D</option>
+            </select><i></i>
+          </label>
+        </section>
+      </form>
+    </div>
+
+
+
+
+
+    <!--
+
+    2. Integrare in bootstrap
+    3. Adaug clasa reform
+    5. Focus (mouse, tab) states
+    5. Publicare pe github
+    Din <input reform type="checkbox">
+    Fac <input id="random123" type="checkbox">
+    <label for="random123" class="reform-checkbox"></label>
+    select si input[type=file] vor fi cu opacity 0
+    iar wrapper-ul va contine stilizarea
+    * poate ar fi bine sa fac wrapper si la checkbox/radio/switch
+    * cum ar arata daca as interpreta toate evenimentele in js?
+    * psd2html foloseste <i> la select pentru arrow
+    * pot sa fac si eu la fel + pointer events
+    -->
+  </body>
+</html>

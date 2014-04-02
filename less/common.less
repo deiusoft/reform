@@ -1,0 +1,41 @@
+*, *:after, *:before {
+  .transition(all .2s linear);
+}
+
+.reform {
+  position: relative;
+  display: inline-block;
+  .user-select(none);
+
+  // hide the default form element
+  input[type=checkbox], input[type=radio] {
+    position: absolute;
+    left: -9999px;
+  }
+
+  input[type=text], select {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  i {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+
+    &:after {
+      position: absolute;
+      display: block;
+      content: " ";
+    }
+  }
+}

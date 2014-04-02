@@ -1,0 +1,29 @@
+.reform input[type=checkbox].switch + i {
+  width: 40px;
+  height: 20px;
+  background: red;
+  border-radius: 10px;
+}
+
+.reform input[type=checkbox].switch + i:after {
+  top: 3px;
+  left: 3px;
+  .opacity(1);
+  width: 14px;
+  height: 14px;
+  background: white;
+  border-radius: 10px;
+}
+
+.reform input[type=checkbox].switch:focus + i,
+.reform input[type=checkbox].switch:hover + i {
+  box-shadow: 0 0 5px blue;
+}
+
+.reform input[type=checkbox].switch:checked + i {
+  background: blue;
+}
+
+.reform input[type=checkbox].switch:checked + i:after {
+  left: 22px;
+}

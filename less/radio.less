@@ -1,0 +1,29 @@
+.reform input[type=radio] + i {
+  width: 20px;
+  height: 20px;
+  background: red;
+  border-radius: 100%;
+}
+
+.reform input[type=radio] + i:after {
+  .opacity(0);
+  top: 3px;
+  left: 3px;
+  width: 14px;
+  height: 14px;
+  background: white;
+  border-radius: 100%;
+}
+
+.reform input[type=radio]:focus + i,
+.reform input[type=radio]:hover + i {
+  box-shadow: 0 0 5px blue;
+}
+
+.reform input[type=radio]:checked + i {
+  background: blue;
+}
+
+.reform input[type=radio]:checked + i:after {
+  .opacity(1);
+}
